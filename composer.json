@@ -1,0 +1,22 @@
+{
+	"name": "phx/molecule",
+	"description": "Molecule components pack for PHX",
+	"type": "library",
+	"license": "GPL-3.0",
+	"autoload": {
+		"psr-4": {
+			"Phx\\Molecule\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Peverelli Andrea",
+			"email": "ndrpeverelli@gmail.com"
+		}
+	],
+	"require": {
+		"phx/core": "dev-main",
+		"phx/atom": "dev-main"
+	},
+	"minimum-stability": "dev"
+}

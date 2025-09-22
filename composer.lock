@@ -1,0 +1,101 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ae5789a884c9e3ebd6ba1c491bfa46ec",
+    "packages": [
+        {
+            "name": "phx/atom",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/peverelli-andrea/phx-atoms.git",
+                "reference": "54a6fa851eb9e0986304ea66c4011225c951bbd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/peverelli-andrea/phx-atoms/zipball/54a6fa851eb9e0986304ea66c4011225c951bbd1",
+                "reference": "54a6fa851eb9e0986304ea66c4011225c951bbd1",
+                "shasum": ""
+            },
+            "require": {
+                "phx/core": "dev-main"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phx\\Atom\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Peverelli Andrea",
+                    "email": "ndrpeverelli@gmail.com"
+                }
+            ],
+            "description": "Atoms component pack for PHX",
+            "support": {
+                "issues": "https://github.com/peverelli-andrea/phx-atoms/issues",
+                "source": "https://github.com/peverelli-andrea/phx-atoms/tree/main"
+            },
+            "time": "2025-09-22T23:46:47+00:00"
+        },
+        {
+            "name": "phx/core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/peverelli-andrea/phx-core.git",
+                "reference": "35f42ea732f44a1cfb2e91a70a78e8dcac2a2a6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/peverelli-andrea/phx-core/zipball/35f42ea732f44a1cfb2e91a70a78e8dcac2a2a6b",
+                "reference": "35f42ea732f44a1cfb2e91a70a78e8dcac2a2a6b",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Phx\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Peverelli Andrea",
+                    "email": "ndrpeverelli@gmail.com"
+                }
+            ],
+            "description": "A frontend UI framework for PHP",
+            "support": {
+                "issues": "https://github.com/peverelli-andrea/phx-core/issues",
+                "source": "https://github.com/peverelli-andrea/phx-core/tree/main"
+            },
+            "time": "2025-09-22T23:45:58+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "phx/atom": 20,
+        "phx/core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
