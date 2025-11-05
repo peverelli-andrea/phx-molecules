@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae5789a884c9e3ebd6ba1c491bfa46ec",
+    "content-hash": "67ecc388acb1348a589067a92f8a3208",
     "packages": [
         {
             "name": "phx/atom",
@@ -12,16 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/peverelli-andrea/phx-atoms.git",
-                "reference": "54a6fa851eb9e0986304ea66c4011225c951bbd1"
+                "reference": "d25fbf9ef5ca2b6aa5f221d4af4f56769cbbd66f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/peverelli-andrea/phx-atoms/zipball/54a6fa851eb9e0986304ea66c4011225c951bbd1",
-                "reference": "54a6fa851eb9e0986304ea66c4011225c951bbd1",
+                "url": "https://api.github.com/repos/peverelli-andrea/phx-atoms/zipball/d25fbf9ef5ca2b6aa5f221d4af4f56769cbbd66f",
+                "reference": "d25fbf9ef5ca2b6aa5f221d4af4f56769cbbd66f",
                 "shasum": ""
             },
             "require": {
-                "phx/core": "dev-main"
+                "phx/core": "dev-main#875577f168e570dc4d06f507603517f9f46708e3"
             },
             "default-branch": true,
             "type": "library",
@@ -45,7 +45,7 @@
                 "issues": "https://github.com/peverelli-andrea/phx-atoms/issues",
                 "source": "https://github.com/peverelli-andrea/phx-atoms/tree/main"
             },
-            "time": "2025-09-22T23:46:47+00:00"
+            "time": "2025-11-05T00:02:11+00:00"
         },
         {
             "name": "phx/core",
@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/peverelli-andrea/phx-core.git",
-                "reference": "35f42ea732f44a1cfb2e91a70a78e8dcac2a2a6b"
+                "reference": "875577f168e570dc4d06f507603517f9f46708e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/peverelli-andrea/phx-core/zipball/35f42ea732f44a1cfb2e91a70a78e8dcac2a2a6b",
-                "reference": "35f42ea732f44a1cfb2e91a70a78e8dcac2a2a6b",
+                "url": "https://api.github.com/repos/peverelli-andrea/phx-core/zipball/875577f168e570dc4d06f507603517f9f46708e3",
+                "reference": "875577f168e570dc4d06f507603517f9f46708e3",
                 "shasum": ""
             },
             "default-branch": true,
@@ -83,15 +83,14 @@
                 "issues": "https://github.com/peverelli-andrea/phx-core/issues",
                 "source": "https://github.com/peverelli-andrea/phx-core/tree/main"
             },
-            "time": "2025-09-22T23:45:58+00:00"
+            "time": "2025-11-05T00:01:08+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "phx/atom": 20,
-        "phx/core": 20
+        "phx/atom": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
