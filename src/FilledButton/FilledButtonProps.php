@@ -18,6 +18,7 @@ final class FilledButtonProps
 		public FilledButtonVariant $variant = FilledButtonVariant::ELEVATED,
 		public FilledButtonSize $size = FilledButtonSize::S,
 		public Shape $shape = Shape::ROUND,
+		public bool $disabled = false,
 		public bool $toggleable = false,
 		public bool $toggled = false,
 		?CommonProps $common = null,
